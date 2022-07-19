@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS IP</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <b>1.Create masterhead - add background image and put a text at the center , with button below it</b><br>
+    <div class="masterhead">
+    <p class="text">CSS IP</p>
+    <button class="btn-one">Click Here</button>
+    </div> <br><br>
+    <b>2.Create header -- left side will have logo and right side will have 4 button </b><br><br>
+    <div class="header">
+        <div class="right">
+        <div class="one">
+            <button class="btn-two">About</button>
+        </div>
+        <div class="two">
+            <button class="btn-three">Course</button>
+        </div>
+        <div class="three">
+            <button class="btn-four">Galary</button>
+        </div>
+        <div class="four">
+            <button class="btn-five">Sports</button>
+        </div>
+        </div>
+        <div class="logo">
+            <img src="./bg.jpg" >
+        </div>
+    </div><br><br>
+    <b>3.Create 3 cards of height & width 200 px with texts in it , the card should be horizontally placed in web view and vertically in mobile view</b><br><br>
+    <div class="box">
+    <div class="card"> Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
+    </div>
+    <b>4.Replicate the button on Masthead of PrepBytes, Change the background color of button for mobile view and ipad</b><br><br>
+    <div class="prep">
+        <button class="btn-six">Enroll Now</button>
+    </div><br><br>
+    <b>5.Write code to show implementation of flex</b><br><br>
+    <div class="box1">
+        <div class="card1"> Card 1</div>
+        <div class="card1">Card 2</div>
+        <div class="card1">Card 3</div>
+    </div><br><br>
+    <b>6.Show implementation of transition</b><br><br>
+    <div class="trans"></div><br><br><br>
+    <b>7.Show implementation of transformation</b><br><br><br>
+    <div class="transistion"></div><br><br><br>
+    <b>8.Show implementation of grid</b><br><br>
+    <div class="grid-container">
+        <div class="child-container grid1">HEADER</div>
+        <div class="child-container grid2">MENU</div>
+        <div class="child-container grid3">MAIN</div>
+        <div class="child-container grid4">RIGHT</div>
+        <div class="child-container grid5">FOOTER</div>
+    </div><br><br>
+    <b>9.What are CSS combinators</b><br><br>
+     <b>1.space</b><br><br>
+    <div class="parent">
+        parent
+        <div class="child">
+            child
+           <b class="grand-child">
+            grand child
+           </b>
+        </div>
+    </div><br><br><br>
+    <b>2. > greater than</b><br><br>
+    <div class="parent1">
+        parent
+        <div class="child1">
+            child
+           <p class="grand-child1">
+            grand child
+           </p>
+        </div>
+    </div>
+    <b>3.+ plus</b><br><br>
+    <div class="parentx">
+        one
+    </div>
+    <p class="parenty">
+        two
+        <span>
+            text inside span
+        </span>
+    </p>
+    <b class="parenty">
+        two
+    </b>   
+    <br><br><br>
+    <b>4. ~ tilda</b><br><br>
+    <div class="parentx1">
+        one
+    </div>
+    <p class="parenty1">
+        two
+        <span>
+            text inside span
+        </span>
+    </p>
+    <b class="parenty1">
+        two
+    </b>   
+    <br><br><br>
+    <b>10.What are pseudo selectors in CSS</b><br><br>
+    Pseduo Classes <br><br>
+    1.Hover Pseduo class <br><br><br>
+    <div class="class">
+        Lorem, ipsum dolor.
+        <span>
+            span text inside
+        </span>
+    </div><br><br>
+    2.Checked Pseduo class <br><br><br>
+    <input type="checkbox" class="test">
+    <input type="checkbox"><br><br>
+    3.Disabled Pseduo class <br><br>
+    <input type="text" ><br>
+    <input type="text"class="test1" disabled><br><br>
+    4.Empty Pseduo class <br><br>
+    <!-- apply only for empty div -->
+    <div class="test2"></div><br><br>
+    4.Enable Pseduo class <br><br>
+    <input type="text" class="test3"><br>
+    <input type="text" class="test3"disabled> <br>
+    <input type="text" class="test3"><br>
+    <button class="bt">Enabled</button>
+    <button class="bt1">Disabled</button><br><br>
+    5.Focus Pseduo class <br><br>
+    <input type="text" class="test4"><br><br>
+    6.nth-child Pseduo class <br><br>
+    <p class="para1">paragraph</p>
+    <div class="para">
+        <p class="para1">para 1</p>
+        <p class="para1">para 2</p>
+        <p class="para1">para 3</p>
+        <section class="sect">
+            section inside div 
+        </section>
+        <p class="para1">para 4</p>
+    </div>
+    <p class="para1">
+        Another para
+    </p><br>
+    7.nth-of-type pseduo class <br><br>
+    <div class="para2">
+        <p class="para3">para 1</p>
+        <p class="para3">para 2</p>
+        <p class="para3">para 3</p>
+        <section class="sec">
+            section inside div 
+        </section>
+        <p class="para3">para 4</p>
+        <section class="sec">
+          Another section 
+        </section>
+       <div>
+        <section class="sec">
+            first section
+        </section>
+        <b>Bold side</b>
+        <section class="sec">
+            second section 
+        </section>
+       </div>
+    </div><br><br>
+    Pseduo elements <br><br>
+    1.Before and After elements <br><br>
+    <div class="element">
+        I am a div
+    </div> <br><br>
+    2.Marker element <br>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        
+    </ul>
+
+   
+</body>
+</html>
